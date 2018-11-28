@@ -1,10 +1,7 @@
 var React = require('react');
 
-asd = () => {
-    console.log('werwerwer')
-}
 
-const FUNCTION_REGEX = /react(\d+)?./i;
+var FUNCTION_REGEX = /react(\d+)?./i;
 
 function classComponent(component) {
   return (
